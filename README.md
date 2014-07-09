@@ -21,3 +21,6 @@ Generate random patterns with Commodore 64.
 250 DATA 024,024,056,247,239,028,024,024
 ```
 ![Screenshot](http://mad4j.github.io/c64-codeart/screenshot.png)
+
+References:
+* `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
