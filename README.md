@@ -3,7 +3,7 @@ c64-codeart
 
 Generate random patterns with Commodore 64.
 
-```BASIC
+```bas
 100 REM CODE-ART
 110 REM DANIELE.OLMISANI@GMAIL.COM
 120 PRINT "{CLEAR}"
