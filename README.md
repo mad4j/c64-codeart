@@ -41,7 +41,9 @@ Generate random patterns with Commodore 64.
 `POKE 54296,15:POKE 54296,0`
 
 #### Cheating quine
-`10 LIST`
+```bas
+10 LIST
+```
 
 #### Computing PI
 ```bas
@@ -49,7 +51,7 @@ Generate random patterns with Commodore 64.
 20 PRINT "{CLEAR}"
 30 K=2: P=3: S=4
 40 P=P+S/(K*(K+1)*(K+2))
-50 PRINT "{HOME}"P
+50 PRINT "{HOME}";P
 60 K=K+2: S=-S
 70 GOTO 40
 ```
