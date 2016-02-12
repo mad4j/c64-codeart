@@ -32,13 +32,19 @@ Generate random patterns with Commodore 64.
 ```
 
 #### Random music
-`10 POKE 54272+RND(1)*25,RND(1)*256 : GOTO 10`
+```bas
+10 POKE 54272+RND(1)*25,RND(1)*256 : GOTO 10
+```
 
 #### Is it a syntax error or not?
-`PRINT "? SYNTAX ERROR";`
+```bas
+PRINT "? SYNTAX ERROR";`
+```
 
 #### Make a click sound
-`POKE 54296,15:POKE 54296,0`
+```bas
+POKE 54296,15:POKE 54296,0
+```
 
 #### Cheating quine
 ```bas
