@@ -37,3 +37,6 @@ Generate random patterns with Commodore 64.
 
 #### Make a click sound
 `POKE 54296,15:POKE 54296,0`
+
+#### Cheating quine
+`10 LIST`
