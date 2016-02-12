@@ -26,6 +26,11 @@ Generate random patterns with Commodore 64.
 
 ### Code Art
 
+#### Hello World!
+```bas
+PRINT "HELLOWORLD!"
+```
+
 #### Random design
 ```bas
 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
