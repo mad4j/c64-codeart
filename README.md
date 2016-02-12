@@ -25,6 +25,15 @@ Generate random patterns with Commodore 64.
 ![Screenshot](http://mad4j.github.io/c64-codeart/screenshot.png)
 
 ### Code Art
-* `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
-* `10 POKE 54272+RND(1)*25,RND(1)*256 : GOTO 10`
-* `10 PRINT "? SYNTAX ERROR";`
+
+#### Random design
+`10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
+
+#### Random music
+`10 POKE 54272+RND(1)*25,RND(1)*256 : GOTO 10`
+
+#### Is it a syntax error or not?
+`PRINT "? SYNTAX ERROR";`
+
+#### Make a click sound
+`POKE 54296,15:POKE 54296,0`
