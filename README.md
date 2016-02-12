@@ -45,7 +45,7 @@ Generate random patterns with Commodore 64.
 ```bas
 10 REM COMPUTING PI (NILAKANTHA SERIES) 
 20 PRINT "{CLEAR}"
-30 k02: P=3: S=4
+30 K=2: P=3: S=4
 40 P=P+S/(K*(K+1)*(K+2))
 50 PRINT "{HOME}"P
 60 K=K+2: S=-S
