@@ -2,7 +2,8 @@ c64-codeart
 ===========
 
 Generate random patterns with Commodore 64.
-```basic
+
+```bplus
 100 REM CODE-ART
 110 REM DANIELE.OLMISANI@GMAIL.COM
 120 PRINT "{CLEAR}"
@@ -20,6 +21,7 @@ Generate random patterns with Commodore 64.
 240 DATA 024,024,028,239,247,056,024,024
 250 DATA 024,024,056,247,239,028,024,024
 ```
+
 ![Screenshot](http://mad4j.github.io/c64-codeart/screenshot.png)
 
 References:
