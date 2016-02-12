@@ -27,7 +27,9 @@ Generate random patterns with Commodore 64.
 ### Code Art
 
 #### Random design
-`10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
+```bas
+10 PRINT CHR$(205.5+RND(1)); : GOTO 10
+```
 
 #### Random music
 `10 POKE 54272+RND(1)*25,RND(1)*256 : GOTO 10`
