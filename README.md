@@ -41,9 +41,9 @@ PRINT "HELLOWORLD!"
 10 POKE 54272+RND(1)*25,RND(1)*256 : GOTO 10
 ```
 
-#### Is it a syntax error or not?
+#### Is this a correct statement?
 ```bas
-PRINT "? SYNTAX ERROR";`
+PRINT "? SYNTAX ERROR";
 ```
 
 #### Make a click sound
