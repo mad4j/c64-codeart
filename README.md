@@ -43,7 +43,7 @@ PRINT "HELLOWORLD!"
 
 #### Is this a correct statement?
 ```bas
-PRINT "? SYNTAX ERROR";
+PRINT "{DOWN}? SYNTAX ERROR";
 ```
 
 #### Make a click sound
