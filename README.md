@@ -42,6 +42,7 @@ PRINT "HELLOWORLD!"
 ```
 
 #### Is this a correct statement?
+This is a correct statement but it returns the same message as `jfglajda`. So it is a correct statement or not?
 ```bas
 PRINT "{DOWN}? SYNTAX ERROR";
 ```
