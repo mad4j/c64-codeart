@@ -47,6 +47,8 @@ This is a correct statement but it returns the same message as `jfglajda`. So it
 PRINT "{DOWN}? SYNTAX ERROR";
 ```
 
+The `{DOWN}` character is obtained by pressing the down curso key
+
 #### Make a click sound
 ```bas
 POKE 54296,15:POKE 54296,0
@@ -66,6 +68,11 @@ POKE 54296,15:POKE 54296,0
 50 PRINT "{HOME}";P
 60 K=K+2: S=-S
 70 GOTO 40
+```
+
+Otherwise, by cheating
+```bas
+PRINT {PI}
 ```
 
 #### Timing stuff
