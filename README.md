@@ -68,14 +68,14 @@ POKE 54296,15:POKE 54296,0
 70 GOTO 40
 ```
 
- #### Timing stuff
- Prints timer ticks since Power-On (1 Tick = 1/60 Second)
- ```bas
- PRINT TI
- ```
+#### Timing stuff
+Prints timer ticks since Power-On (1 Tick = 1/60 Second)
+```bas
+PRINT TI
+```
  
- Prints timer since Power-On in Hour/Minute/Second Format
- ```bas
- PRINT TI$
- ```
-he accuracy of the timer is very poor (>1% drift)
+Prints timer since Power-On in Hour/Minute/Second Format
+```bas
+PRINT TI$
+```
+The accuracy of the timer is very poor (>1% drift)
