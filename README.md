@@ -75,6 +75,11 @@ Otherwise, by cheating
 PRINT {PI}
 ```
 
+#### Random stuff
+```bas
+10 P=RND(1)*1000 : POKE 1024+P, RND(1)*128 : POKE 55296+P, RND(1)*16 : GOTO 10
+```
+
 #### Timing stuff
 Prints timer ticks since Power-On (1 Tick = 1/60 Second)
 ```bas
