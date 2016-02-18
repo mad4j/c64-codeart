@@ -22,7 +22,7 @@ Generate random patterns with Commodore 64.
 250 DATA 008,008,004,003,192,032,016,016
 ```
 
-![Screenshot](http://mad4j.github.io/c64-codeart/screenshot.png)
+![Screenshot](screenshot.png)
 
 ### Code Art
 
