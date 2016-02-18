@@ -18,8 +18,8 @@ Generate random patterns with Commodore 64.
 210 PRINT CHR$(64.5+RND(1));
 220 GOTO 210
 230 REM CHARACTER DATA
-240 DATA 024,024,028,239,247,056,024,024
-250 DATA 024,024,056,247,239,028,024,024
+240 DATA 016,016,032,192,003,004,008,008
+250 DATA 008,008,004,003,192,032,016,016
 ```
 
 ![Screenshot](http://mad4j.github.io/c64-codeart/screenshot.png)
