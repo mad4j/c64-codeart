@@ -47,7 +47,7 @@ This is a correct statement but it returns the same message as `jfglajda`. So it
 PRINT "{DOWN}? SYNTAX ERROR";
 ```
 
-The `{DOWN}` character is obtained by pressing the down curso key
+The `{DOWN}` character is obtained by pressing the down cursor key
 
 #### Make a click sound
 ```bas
@@ -73,6 +73,11 @@ POKE 54296,15:POKE 54296,0
 Otherwise, by cheating
 ```bas
 PRINT {PI}
+```
+
+#### Memory Worm
+```bas
+10 POKE RND(1)*65536, RND(1)*256 : GOTO 10
 ```
 
 #### Random stuff
