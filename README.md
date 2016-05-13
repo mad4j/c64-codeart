@@ -75,6 +75,23 @@ Otherwise, by cheating
 PRINT {PI}
 ```
 
+#### Hofstadter Q sequence
+
+```bas
+100 REM HOFSTADTER Q NUMBERS
+110 DIM Q(1000)
+120 Q(1)=1 : Q(2)=1
+130 FOR N=3 TO 1000
+140 : Q(N) = Q(N-Q(N-1)) + Q(N-Q(N-2))
+150 NEXT N
+160 PRINT "FIRST NUMBERS: ";
+170 FOR I=1 TO 10
+180 : PRINT Q(I);
+190 NEXT I
+200 PRINT
+210 PRINT "1000th NUMBER: "; Q(1000)
+```
+
 #### Memory Worm
 ```bas
 10 POKE RND(1)*65536, RND(1)*256 : GOTO 10
@@ -98,19 +115,4 @@ PRINT TIME$
 The accuracy of the timer is very poor (>1% drift)
 
 
-#### Hofstadter Q sequence
 
-```bas
-100 REM HOFSTADTER Q NUMBERS
-110 DIM Q(1000)
-120 Q(1)=1 : Q(2)=1
-130 FOR N=3 TO 1000
-140 : Q(N) = Q(N-Q(N-1)) + Q(N-Q(N-2))
-150 NEXT N
-160 PRINT "FIRST NUMBERS: ";
-170 FOR I=1 TO 10
-180 : PRINT Q(I);
-190 NEXT I
-200 PRINT
-210 PRINT "1000th NUMBER: "; Q(1000)
-```
