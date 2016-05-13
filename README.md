@@ -92,6 +92,17 @@ PRINT {PI}
 210 PRINT "1000th NUMBER: "; Q(1000)
 ```
 
+#### Fibonacci Numbers
+```bas
+10 REM FIBONACCI NUMNBERS
+20 A=1: B=1
+30 PRINT A; B;
+40 FOR I=3 TO 15
+50 T=A+B: A=B: B=T
+60 PRINT T;
+70 NEXT
+```
+
 #### Memory Worm
 ```bas
 10 POKE RND(1)*65536, RND(1)*256 : GOTO 10
