@@ -125,5 +125,9 @@ PRINT TIME$
 ```
 The accuracy of the timer is very poor (>1% drift)
 
+#### Soft reset
+```bas
+SYS 64738
+```
 
 
