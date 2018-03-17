@@ -59,7 +59,7 @@ POKE 54296,15:POKE 54296,0
 10 LIST
 ```
 
-
+**TBV**
 ```bas
 10 READ A$:PRINT 10 A$:PRINT 20 "DATA" A$
 20 DATA READ A$:PRINT 10 A$:PRINT 20 "DATA" A$
@@ -76,6 +76,9 @@ POKE 54296,15:POKE 54296,0
 60 K=K+2: S=-S
 70 GOTO 40
 ```
+
+![Screenshot](pi.png)
+
 
 Otherwise, by cheating
 ```bas
