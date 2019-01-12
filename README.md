@@ -66,6 +66,10 @@ Set the register X with value 11, then call the error routine (X=11 handles Synt
 POKE 54296,15:POKE 54296,0
 ```
 
+#### Quines
+
+A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output. Wikipedia
+
 #### Cheating quine
 ```bas
 10 LIST
@@ -75,13 +79,13 @@ POKE 54296,15:POKE 54296,0
 ```bas
 1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)
 ```
-
+<!---
 **TBV**
 ```bas
 10 READ A$:PRINT 10 A$:PRINT 20 "DATA" A$
 20 DATA READ A$:PRINT 10 A$:PRINT 20 "DATA" A$
 ```
-
+--->
 
 #### Computing PI
 ```bas
