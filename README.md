@@ -32,7 +32,7 @@ PRINT "HELLOWORLD!"
 250 DATA 008,008,004,003,192,032,016,016
 ```
 
-![Screenshot](screenshot.png)
+![Blobls](images/c64-blobs.png)
 
 
 Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
@@ -80,7 +80,7 @@ A quine is a non-empty computer program which takes no input and produces a copy
 1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)
 ```
 
-![quine](c64-quine.png)
+![Quine](images/c64-quine.png)
 
 
 <!---
@@ -102,7 +102,7 @@ A quine is a non-empty computer program which takes no input and produces a copy
 70 GOTO 40
 ```
 
-![Screenshot](pi.png)
+![PI](images/c64-pi.png)
 
 
 Otherwise, by cheating
