@@ -46,11 +46,21 @@ PRINT "HELLOWORLD!"
 
 #### Is this a correct statement?
 This is a correct statement but it returns the same message as `jfglajda`. So it is a correct statement or not?
+
+##### Trivial version
 ```bas
-PRINT "{DOWN}? SYNTAX ERROR";
+PRINT "{DOWN}?SYNTAX  ERROR";
 ```
 
 The `{DOWN}` character is obtained by pressing the down cursor key
+
+##### Expert version
+
+```bas
+POKE781,11:SYS58251
+```
+
+Set the register X with value 11, then call the error routine (X=11 handles Syntax Error). Thanks to [palordrolap](https://www.reddit.com/user/palordrolap).
 
 #### Make a click sound
 ```bas
