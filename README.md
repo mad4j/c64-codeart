@@ -59,6 +59,11 @@ POKE 54296,15:POKE 54296,0
 10 LIST
 ```
 
+#### Actual quine
+```bas
+1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)MID$(A$,6,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)MID$(A$,6,49)
+```
+
 **TBV**
 ```bas
 10 READ A$:PRINT 10 A$:PRINT 20 "DATA" A$
