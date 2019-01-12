@@ -79,6 +79,10 @@ A quine is a non-empty computer program which takes no input and produces a copy
 ```bas
 1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)
 ```
+
+![quine](c64-quine.png)
+
+
 <!---
 **TBV**
 ```bas
