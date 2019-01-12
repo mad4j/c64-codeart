@@ -1,9 +1,9 @@
 C64 CodeArt
 ===========
 
-by Daniele Olmisani
+by Daniele Olmisani.
 
-see [LICENSE](LICENSE) file
+Please, see [LICENSE](LICENSE) file.
 
 #### Hello World!
 ```bas
