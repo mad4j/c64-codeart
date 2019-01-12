@@ -68,7 +68,7 @@ POKE 54296,15:POKE 54296,0
 
 #### Quines
 
-A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output. Wikipedia
+A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output. [Wikipedia](https://en.wikipedia.org/wiki/Quine_%28computing%29)
 
 #### Cheating quine
 ```bas
