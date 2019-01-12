@@ -3,7 +3,13 @@ C64 CodeArt
 
 by Daniele Olmisani
 
-see LICENSE file
+see [LICENSE](LICENSE) file
+
+#### Hello World!
+```bas
+PRINT "HELLOWORLD!"
+```
+
 
 #### Generate random patterns with Commodore 64.
 
@@ -30,13 +36,6 @@ see LICENSE file
 
 
 Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
-
-
-#### Hello World!
-```bas
-PRINT "HELLOWORLD!"
-```
-
 
 
 #### Random music
