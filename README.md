@@ -61,7 +61,7 @@ POKE 54296,15:POKE 54296,0
 
 #### Actual quine
 ```bas
-1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)MID$(A$,6,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)MID$(A$,6,49)
+1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)
 ```
 
 **TBV**
