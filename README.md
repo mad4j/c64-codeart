@@ -1,7 +1,11 @@
-c64-codeart
+C64 CodeArt
 ===========
 
-Generate random patterns with Commodore 64.
+by Daniele Olmisani
+
+see LICENSE file
+
+#### Generate random patterns with Commodore 64.
 
 ```basic
 100 REM CODE-ART
@@ -24,17 +28,16 @@ Generate random patterns with Commodore 64.
 
 ![Screenshot](screenshot.png)
 
-### Code Art
+
+Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
+
 
 #### Hello World!
 ```bas
 PRINT "HELLOWORLD!"
 ```
 
-#### Random design
-```bas
-10 PRINT CHR$(205.5+RND(1)); : GOTO 10
-```
+
 
 #### Random music
 ```bas
