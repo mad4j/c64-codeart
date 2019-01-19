@@ -1,18 +1,41 @@
 C64 CodeArt
 ===========
 
-by Daniele Olmisani.
+by Daniele Olmisani
+and the contributions of @JaganGanesh
 
 Please, see [LICENSE](LICENSE) file.
 
-#### Hello World!
+### Hello World!
 ```bas
 PRINT "HELLOWORLD!"
 ```
 
+### Few Operations
+
 #### Simple Arithmetic
 ```bas
-10 PRINT 2 + 2, 4 - 2, 9 * 2, 9 / 3
+10 PRINT 3+3, 3-3, 3*3, 3/3, 3^3
+```
+
+#### Built-in Functions
+
+Square function and natural logarithm with the basis E
+
+```bas
+10 PRINT SQR(4), 4*4
+```
+
+```bas
+10 PRINT LOG(1), LOG(100)/LOG(10)
+```
+
+#### Build-in Constants
+
+Pi value
+
+```bas
+10 PRINT {PI}
 ```
 
 #### FOR-NEXT Loop
