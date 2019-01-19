@@ -14,9 +14,17 @@ PRINT "HELLOWORLD!"
 ### The Basics of BASIC
 
 #### Simple Arithmetic
+
 ```bas
 PRINT 3+3, 3-3, 3*3, 3/3, 3^3
 ```
+
+Operator are evaluated left-to-right with this predence order: ^, */, +-.
+
+```bas
+PRINT 9*8+7+6^5/4-3-2+1
+```
+
 
 #### Built-in Functions
 
