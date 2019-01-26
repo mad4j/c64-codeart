@@ -82,6 +82,7 @@ A quine is a non-empty computer program which takes no input and produces a copy
 
 ![Quine](images/c64-quine.png)
 
+A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets.
 
 <!---
 **TBV**
