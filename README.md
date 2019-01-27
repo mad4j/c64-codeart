@@ -80,7 +80,7 @@ A quine is a non-empty computer program which takes no input and produces a copy
 1 A$="1 A$=:PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)":PRINT LEFT$(A$,5)CHR$(34)A$CHR$(34)RIGHT$(A$,49)
 ```
 
-![Quine](images/c64-quine.png)
+![Quine](images/c64-quine-1.png)
 
 A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets.
 
