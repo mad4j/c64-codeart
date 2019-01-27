@@ -1,68 +1,14 @@
 C64 CodeArt
 ===========
 
-by Daniele Olmisani.
+by Daniele Olmisani
 
 Please, see [LICENSE](LICENSE) file.
 
-#### Hello World!
+
+### Hello World!
 ```bas
 PRINT "HELLOWORLD!"
-```
-
-#### Simple Arithmetic
-```bas
-10 PRINT 2 + 2, 4 - 2, 9 * 2, 9 / 3
-```
-
-#### FOR-NEXT Loop
-```bas
-10 FOR I = 1 TO 4
-20 PRINT "HELLOWORLD!"
-30 NEXT I
-```
-
-#### INPUT Variables
-```bas
-10 DIM A$(1)
-20 PRINT "PRESS RETURN TO CONTINUE"
-30 INPUT A$
-```
-
-```bas
-10 DIM N$(40)
-20 PRINT "WHAT IS YOUR NAME: ";
-30 INPUT N$
-40 PRINT "HELLO, "; N$
-```
-
-#### IF Condition
-```bas
-10 DIM A$(4)
-20 PRINT "DO YOU LIKE C64: ";
-30 INPUT A$
-40 IF A$ = "YES" THEN 60
-50 END
-60 PRINT "GREAT!"
-70 GOTO 50
-```
-
-#### Random Numbers
-```bas
-10 PRINT RND(1)
-```
-
-```bas
-10 PRINT INT(10*RND(1) + 1)
-```
-
-#### GOSUB
-```bas
-10  PRINT "HELLO"
-20  GOSUB 100
-30  END
-100 PRINT "WORLD"
-110 RETURN
 ```
 
 #### Generate random patterns with Commodore 64.
@@ -136,6 +82,7 @@ A quine is a non-empty computer program which takes no input and produces a copy
 
 ![Quine](images/c64-quine.png)
 
+A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets.
 
 <!---
 **TBV**
