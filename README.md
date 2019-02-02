@@ -37,6 +37,20 @@ PRINT "HELLOWORLD!"
 
 Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
 
+### Sierpinsky Pattern
+
+```
+10 REM SIERPINSKY PATTERN
+20 REM 2019, DANIELE.OLMISANI@GMAIL.COM
+30 PRINT"{CLEAR}" 
+40 FOR R=1 TO 25
+50 : FOR C=1 TO 40 
+60 : : IF (R AND C)=0 THEN POKE 983+40*R+C,160
+70 : : NEXT
+80 : NEXT
+90 GET A$: IF A$="" THEN 90
+```
+
 
 #### Random music
 ```bas
@@ -82,7 +96,12 @@ A quine is a non-empty computer program which takes no input and produces a copy
 
 ![Quine](images/c64-quine-1.png)
 
-A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets.
+A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets. Due the two line limitation of C64 editor it shall be compiled or edited with CBM Studio.
+
+The following one may be edited directly in a real C64.
+
+![Quine](images/c64-quine-2.png)
+
 
 <!---
 **TBV**
