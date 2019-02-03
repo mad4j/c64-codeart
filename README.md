@@ -52,7 +52,7 @@ Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
 999 END
 ```
 
-![Sierpinsky](images/c64-sierpinksy.png)
+![Sierpinsky](images/c64-sierpinsky.png)
 
 
 #### Random music
