@@ -32,7 +32,7 @@ PRINT "HELLOWORLD!"
 250 DATA 008,008,004,003,192,032,016,016
 ```
 
-![Blobls](images/c64-blobs.png)
+![Blobs](images/c64-blobs.png)
 
 
 Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
@@ -46,11 +46,13 @@ Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
 210 FOR R=1 TO 25
 220 : FOR C=1 TO 40 
 230 : : IF (R AND C)=0 THEN POKE 983+40*R+C,160
-240 : : NEXT
-250 : NEXT
+240 : NEXT
+250 NEXT
 900 GET A$: IF A$="" THEN 900
 999 END
 ```
+
+![Sierpinsky](images/c64-sierpinksy.png)
 
 
 #### Random music
