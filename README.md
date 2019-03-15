@@ -134,6 +134,12 @@ Otherwise, by cheating
 PRINT {PI}
 ```
 
+Ohterwise, a good approximation
+```base
+PRINT 355/113
+```
+
+
 #### Hofstadter Q sequence
 
 ```bas
