@@ -32,10 +32,28 @@ PRINT "HELLOWORLD!"
 250 DATA 008,008,004,003,192,032,016,016
 ```
 
-![Blobls](images/c64-blobs.png)
+![Blobs](images/c64-blobs.png)
 
 
 Obviously inspired from the famous `10 PRINT CHR$(205.5+RND(1)); : GOTO 10`
+
+### Sierpinsky Pattern
+
+```
+100 REM SIERPINSKY PATTERN
+110 REM DANIELE.OLMISANI@GMAIL.COM
+200 PRINT"{CLEAR}" 
+210 FOR R=1 TO 25
+220 : FOR C=1 TO 40
+230 : : V = R AND C 
+240 : : IF V=0 THEN POKE 983+40*R+C,160
+250 : NEXT
+260 NEXT
+900 GET A$: IF A$="" THEN 900
+999 END
+```
+
+![Sierpinsky](images/c64-sierpinsky.png)
 
 
 #### Random music
@@ -82,7 +100,12 @@ A quine is a non-empty computer program which takes no input and produces a copy
 
 ![Quine](images/c64-quine-1.png)
 
-A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets.
+A shorter version of **108 chars** should be retrieved by removing wihite spaces after PRINT statements and, of course, replacing value `49` with `48` in RIGHT$ statemets. Due the two line limitation of C64 editor it shall be compiled or edited with CBM Studio.
+
+The following one may be edited directly in a real C64.
+
+![Quine](images/c64-quine-2.png)
+
 
 <!---
 **TBV**
@@ -110,6 +133,12 @@ Otherwise, by cheating
 ```bas
 PRINT {PI}
 ```
+
+Ohterwise, a good approximation
+```base
+PRINT 355/113
+```
+
 
 #### Hofstadter Q sequence
 
