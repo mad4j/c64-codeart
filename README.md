@@ -198,7 +198,7 @@ SYS 64738
 #### Screen Earthquake
 ```bas
 10 POKE 53270,200+RND(1)*8 : GOTO 10
-```bas
+```
 
 
 
