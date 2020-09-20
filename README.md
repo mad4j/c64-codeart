@@ -195,4 +195,11 @@ The accuracy of the timer is very poor (>1% drift)
 SYS 64738
 ```
 
+#### Screen Earthquake
+```bas
+10 POKE 53265, PEEK(53265) AND 248 OR RND(1) : POKE 53270, PEEK(53270) AND 240 OR RND(1)*8
+20 GOTO 10
+```bas
+
+
 
