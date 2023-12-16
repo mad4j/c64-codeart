@@ -200,5 +200,12 @@ SYS 64738
 10 POKE 53270,200+RND(1)*8 : GOTO 10
 ```
 
+#### Little Magic
+```bas
+10 X=RND(-42): FOR I=1 TO 5: PRINT CHR$(RND(1)*26+65);: NEXT 
+```
+output: DECKS
+
+
 
 
